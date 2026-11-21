@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "quiet-output",
+  "version": "0.1.0",
+  "description": "Compact build and test output with complete local logs and original exit codes.",
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json",
+      "interface": {
+        "displayName": "Quiet Output",
+        "shortDescription": "Keep noisy command logs out of model context.",
+        "category": "Productivity"
+      }
+    }
+  }
+}

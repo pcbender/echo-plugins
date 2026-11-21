@@ -1,0 +1,8 @@
+{
+  "name": "quiet-output",
+  "version": "0.1.0",
+  "description": "Compact build and test output with complete local logs and original exit codes.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

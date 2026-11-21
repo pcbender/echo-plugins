@@ -1,0 +1,10 @@
+{
+  "name": "echo-plugins",
+  "interface": { "displayName": "Echo Plugins" },
+  "plugins": [{
+    "name": "quiet-output",
+    "source": { "source": "local", "path": "./plugins/quiet-output" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}
